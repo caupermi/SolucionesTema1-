@@ -93,8 +93,8 @@ c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ```{r}
 
-summary(mammals)
-
+help(mammals)
+help(Animals2)
 
 
 
