@@ -109,15 +109,12 @@ tail(Animals2)
 str(mammals)
 str(Animals2)
 
+#Apartado c
+rownames(mammals)
+colnames(mammals)
 
-
-
-
-
-
-
-
-
+rownames(Animals2)
+colnames(Animals2)
 
 
 ```
