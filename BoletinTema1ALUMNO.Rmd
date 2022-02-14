@@ -92,11 +92,22 @@ b.  Usa las funciones **dim, head, tail, str** para una primera visión de los c
 c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ```{r}
-
+#Apartado a
 help(mammals)
 help(Animals2)
 
+#Apartado b
+dim(mammals)
+dim(Animals2)
 
+head(mammals)
+head(Animals2)
+
+tail(mammals)
+tail(Animals2)
+
+str(mammals)
+str(Animals2)
 
 
 
