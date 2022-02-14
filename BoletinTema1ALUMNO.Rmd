@@ -132,9 +132,13 @@ e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. �
 
 ```{r}
 
+#Animales en mammals pero no en Animals2
+uncommonAnimals1 <- setdiff(rownames(mammals), rownames(Animals2))
+uncommonAnimals1
 
-
-
+#  Animales en Animals2 pero no en mammals
+uncommonAnimals2 <- setdiff(rownames(Animals2), rownames(mammals))
+uncommonAnimals2
 
 
 ```
