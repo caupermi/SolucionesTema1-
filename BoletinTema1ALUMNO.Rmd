@@ -268,7 +268,11 @@ plot(cabbages$VitC ~ cabbages$HeadWt) #comparacion **VitC** en función del peso
 #Apartado b
 plot(cabbages$VitC ~ cabbages$HeadWt, pch=c(1,18)[cabbages$Cult])#comparacion **VitC** en función del peso de la calabaza **HeadWt** por  variedad de calabaza
 
+Modeloc39<-lm(cabbages$VitC ~ cabbages$HeadWt, data=cabbages, subset=which(Cult=="c39"))#obtenemos el modelo c39
+Modeloc52<-lm(cabbages$VitC ~ cabbages$HeadWt, data=cabbages, subset=which(Cult=="c52"))#obtenemos el modelo c52
 
+abline(Modeloc39, lty=3)
+abline(Modeloc52)
 
 ```
 
