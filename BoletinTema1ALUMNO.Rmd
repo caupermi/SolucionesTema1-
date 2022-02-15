@@ -207,10 +207,9 @@ str(Chile)
 dim(Chile)
 colSums(is.na(Chile))
 
-
-
-
-
+#Apartado d
+summary(cabbages)
+summary(Chile)
 
 
 ```
