@@ -265,13 +265,8 @@ b.  Repite el apartado anterior, pero obteniendo un modelo para cada una de las 
 plot(cabbages$VitC ~ cabbages$HeadWt) #comparacion **VitC** en función del peso de la calabaza **HeadWt**
 # No hay una relación lineal
 
-
-
-
-
-
-
-
+#Apartado b
+plot(cabbages$VitC ~ cabbages$HeadWt, pch=c(1,18)[cabbages$Cult])#comparacion **VitC** en función del peso de la calabaza **HeadWt** por  variedad de calabaza
 
 
 
