@@ -181,11 +181,9 @@ libReturn
 # Apartado b
 head(libReturn$results, n=5)
 
-
-
-
-
-
+# Apartado c
+length(libReturn$results[,1])
+# Aparecen 192 librerias instaladas
 
 
     ```
