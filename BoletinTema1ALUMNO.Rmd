@@ -202,7 +202,10 @@ dim(cabbages)
 #Apartado b
 colSums(is.na(cabbages))
 
-
+#Apartado c
+str(Chile)
+dim(Chile)
+colSums(is.na(Chile))
 
 
 
