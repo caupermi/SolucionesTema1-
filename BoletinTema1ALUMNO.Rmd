@@ -199,6 +199,9 @@ qqPlot(log(mammals$brain))
 str(cabbages)
 dim(cabbages)
 
+#Apartado b
+colSums(is.na(cabbages))
+
 
 
 
