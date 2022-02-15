@@ -196,7 +196,11 @@ qqPlot(log(mammals$brain))
 ```{r}
 
 
+is.na(cabbages)
+summary(cabbages)
 
+is.na(Chile)
+summary(Chile)
 
 
 
@@ -227,9 +231,8 @@ qqPlot(log(mammals$brain))
 
 ```{r}
 
-
-
-
+qqPlot(cabbages$HeadWt)
+qqPlot(cabbages$VitC)
 
 ```
 
