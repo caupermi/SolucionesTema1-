@@ -147,15 +147,7 @@ e.  Determina las diferencia entre los animales que no aparecen en ambos conjunt
 
 ```{r}
 
-
-
-
-
-
-
-
-
-
+# En los dos dataframes se guardan animales igual con la diferencia de que no tiene el mismo nombre, es decir, en cada uno de los data frames el mismo animal tiene diferente nombre.
 
 
 ```
