@@ -195,6 +195,9 @@ qqPlot(log(mammals$brain))
 
 ```{r}
 
+#Apartado a
+str(cabbages)
+dim(cabbages)
 
 
 
