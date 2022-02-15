@@ -178,6 +178,8 @@ qqPlot(log(mammals$brain))
 libReturn <- library()
 libReturn
 
+# Apartado b
+head(libReturn$results, n=5)
 
 
 
